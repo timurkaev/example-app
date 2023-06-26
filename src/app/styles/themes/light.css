@@ -1,0 +1,6 @@
+.app.light {
+  --bg-color: rgb(249, 249, 249);
+  --header-bg: rgba(249, 249, 249, 0.9);
+  --icon-button: #d2d4d7;
+  --color: rgba(0, 0, 0, 0.87);
+}

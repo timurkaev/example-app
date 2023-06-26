@@ -1,0 +1,54 @@
+.header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  background-color: var(--header-bg);
+  padding: 0 10px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  transition: background-color 0.3s ease-in;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.name span {
+  color: var(--primary-color);
+}
+
+.menu {
+  fill: var(--color);
+  transition: stroke 0.3s ease-in;
+}
+
+.navList {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.navList li {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.git {
+  fill: var(--color);
+}
